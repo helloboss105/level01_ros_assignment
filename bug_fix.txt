@@ -1,0 +1,8 @@
+Bug fixes:
+- Fix #1: map YAML wrong_path_testbed_world.pgm -> testbed_world.pgm
+- Fix #2: XML syntax error in testbed.gazebo (extra > on IMU tag)
+- Fix #3: world arg not forwarded to gazebo.launch.py (empty world)
+- Fix #4: robot_state_publisher missing use_sim_time=True (TF broken)
+- Fix #5: testbed_bringup CMakeLists.txt missing maps in install target
+- Fix #5: testbed_description Cmake.txt missing ament.package line 24
+- Fix #6: missing /maps in install directory
